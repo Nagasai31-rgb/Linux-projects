@@ -1,9 +1,9 @@
 # Linux-projects
-## 🐧 1. Linux – Real-Time Use Case: Server Setup & Automation
+ # ***🐧 1. Linux – Real-Time Use Case: Server Setup & Automation ***
 
- ### 🧩 Linux – Demo
+ 🧩 Linux – Demo
 
-##  ⭐ Level 1 – Basic (Foundational Skills)
+# **  ⭐ Level 1 – Basic (Foundational Skills) **
  ###  ✅ Set up users, groups for dev team
  ````bash
 sudo groupadd devteam
@@ -11,6 +11,8 @@ sudo useradd -m -s /bin/bash alice
 sudo useradd -m -s /bin/bash bob
 sudo usermod -aG devteam alice
 sudo usermod -aG devteam bob
+````
+
 ### ✅  Manage permissions for project directories
 ````bash
 sudo mkdir -p /opt/app
@@ -30,7 +32,7 @@ lscpu           # CPU
 df -h           # Disk usage
 lsblk           # Block devices
 ````
-## ⭐ Level 2 – Intermediate (Daily DevOps Tasks)
+# ** ⭐ Level 2 – Intermediate (Daily DevOps Tasks) **
 
 
  ###  ✅ Automate backups with Cron
@@ -81,7 +83,7 @@ vmstat 5
 systemctl status nginx
 journalctl -xe
 ````
-## ⭐ Level 3 – Advanced (Production-Ready Linux Admin)
+# ** ⭐ Level 3 – Advanced (Production-Ready Linux Admin) **
 ### ✅ 1. Create Custom systemd Service
 File: /etc/systemd/system/myapp.service
 ````bash
