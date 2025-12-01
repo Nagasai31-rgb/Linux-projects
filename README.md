@@ -11,9 +11,6 @@ sudo useradd -m -s /bin/bash alice
 sudo useradd -m -s /bin/bash bob
 sudo usermod -aG devteam alice
 sudo usermod -aG devteam bob
-
-````
-![alt text](evidence/{D1E1210F-6D72-4611-A64A-6FB96398A64E}.png)
 ### ✅  Manage permissions for project directories
 ````bash
 sudo mkdir -p /opt/app
