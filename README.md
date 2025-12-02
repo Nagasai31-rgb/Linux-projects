@@ -1,7 +1,5 @@
-# Linux
- ## Linux is an open-source operating system (OS) used to run servers, computers, mobile devices, cloud platforms, networking systems, and even supercomputers.
-
-  ## It is known for being fast, secure, stable, and free. 
+# Linux-Demo
+ 
 
 ## 🐧 What is Linux?
 
@@ -90,8 +88,23 @@ lsblk           # Block devices
 ![alt text](evidence/{CDD06C1D-3851-45FE-8386-37B0015CE7BD}.png)
 # ** ⭐ Level 2 – Intermediate (Daily DevOps Tasks) **
 
- ###  ✅ Automate backups with Cron
- ### Backup /opt/app every day at 2 AM
+ ###  ✅ cron jobs
+ Cron jobs are automated tasks that run on a schedule in Linux.
+
+They are used to run scripts, backups, cleanups, monitoring, and maintenance tasks automatically
+
+---
+
+## ✅ Standard Cron Syntax
+```` bash
+* * * * * command
+│ │ │ │ └── Day of week (0–6)
+│ │ │ └──── Month (1–12)
+│ │ └────── Day of month (1–31)
+│ └──────── Hour (0–23)
+└────────── Minute (0–59)
+````
+ ### Backup every day at 2 AM
  ### Create a script
  ````bash
  sudo vi /usr/local/bin/backup_app.sh
