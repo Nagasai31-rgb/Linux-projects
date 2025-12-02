@@ -15,8 +15,6 @@ But Linux is open-source, meaning its source code is free and can be modified by
 
  ## ⭐ Why DevOps Engineers Prefer Linux
 
- > Free and open-source
-
  > Extremely stable
 
  > Very secure
