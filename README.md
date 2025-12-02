@@ -1,4 +1,4 @@
-# Linux-projects
+# Linux
  ## Linux is an open-source operating system (OS) used to run servers, computers, mobile devices, cloud platforms, networking systems, and even supercomputers.
 
   ## It is known for being fast, secure, stable, and free. 
